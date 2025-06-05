@@ -28,7 +28,7 @@ To improve completeness, consider adding message deletion (`message.delete()`) a
 - **Python**: Version 3.6 or higher.
 - **Dependencies**: Install required packages:
   ```bash
-  pip install boto3
+  pip install requirements.txt
   ```
 - **AWS Credentials**: Configure AWS credentials via `~/.aws/credentials`, environment variables, or an IAM role with SQS read permissions.
 - **AWS Region**: Defaults to `us-west-2` if not set via the `AWS_REGION` environment variable.
